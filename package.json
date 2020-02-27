@@ -1,4 +1,7 @@
 {
+  "keywords": [
+    "web"
+  ],
   "dependencies": {
     "mf-styling": "arlac77/mf-styling"
   },
