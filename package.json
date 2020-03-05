@@ -36,6 +36,7 @@
       "arlac77/template-release"
     ],
     "usedBy": [
+      "arlac77/npm-dep-graph",
       "arlac77/template-svelte-app",
       "arlac77/template-vue-app"
     ],
