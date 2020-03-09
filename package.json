@@ -48,7 +48,12 @@
         "type": "JSONMerger",
         "pattern": "**/manifest.json",
         "options": {
-          "expand": false
+          "expand": false,
+          "mergeHints": {
+            "*": {
+              "overwrite": false
+            }
+          }
         }
       }
     ]
