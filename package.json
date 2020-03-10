@@ -22,7 +22,6 @@
   },
   "pacman": {
     "groups": "{{group}}",
-    "hooks": "pacman/hooks.sh",
     "installdir": "/services/{{name}}/frontend"
   },
   "template": {
