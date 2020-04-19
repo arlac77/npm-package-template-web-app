@@ -25,7 +25,8 @@
     "content": {
       "${installdir}/": {
         "base": "public"
-      },
+      }
+    },
     "installdir": "/services/{{name}}/frontend"
   },
   "template": {
