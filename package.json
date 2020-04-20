@@ -21,7 +21,7 @@
     "proxyTarget": "https://somewhere/"
   },
   "pacman": {
-    "groups": "{{group}}",
+    "groups": "web",
     "content": {
       "${installdir}/": {
         "base": "public"
