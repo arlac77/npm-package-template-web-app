@@ -38,6 +38,7 @@
     ],
     "usedBy": [
       "arlac77/npm-dep-graph",
+      "arlac77/npm-navigator",
       "arlac77/service-worker-playground",
       "arlac77/template-svelte-app",
       "arlac77/template-vue-app"
