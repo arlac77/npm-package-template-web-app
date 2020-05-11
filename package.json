@@ -16,7 +16,7 @@
     ]
   },
   "config": {
-    "base": "/services/{{name}}/",
+    "base": "/services/{{name}}",
     "api": "/services/{{name}}/api",
     "proxyTarget": "https://somewhere/"
   },
