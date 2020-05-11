@@ -54,6 +54,17 @@
           "mergeHints": {
             "*": {
               "overwrite": false
+            },
+            "": {
+              "orderBy": [
+                "name",
+                "short_name",
+                "description",
+                "start_url",
+                "display",
+                "orientation",
+                "icons"
+              ]
             }
           }
         }
