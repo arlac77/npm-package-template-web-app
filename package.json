@@ -3,7 +3,6 @@
     "web"
   ],
   "dependencies": {
-    "mf-styling": "arlac77/mf-styling"
   },
   "release": {
     "plugins": [
@@ -16,9 +15,7 @@
     ]
   },
   "config": {
-    "base": "/services/{{name}}",
-    "api": "/services/{{name}}/api",
-    "proxyTarget": "https://somewhere/"
+    "base": "/services/{{name}}"
   },
   "pacman": {
     "groups": "web",
