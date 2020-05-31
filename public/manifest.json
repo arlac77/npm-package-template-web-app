@@ -2,6 +2,7 @@
   "name": "{{name}}",
   "short_name": "{{name}}",
   "description": "{{description}}",
+  "background_color": "#ffffff",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
