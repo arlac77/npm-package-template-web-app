@@ -39,7 +39,7 @@
       "arlac77/template-vue-app"
     ],
     "properties": {
-      "node_version": "14.8.0"
+      "node_version": "14.9.0"
     },
     "mergers": [
       {
