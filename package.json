@@ -39,7 +39,8 @@
       "arlac77/template-vue-app"
     ],
     "properties": {
-      "node_version": "14.9.0"
+      "node_version": "14.9.0",
+      "rollup": { "config": "rollup.config.mjs" }
     },
     "mergers": [
       {
