@@ -57,6 +57,7 @@
                 "name",
                 "short_name",
                 "description",
+                "land",
                 "start_url",
                 "display",
                 "orientation",
