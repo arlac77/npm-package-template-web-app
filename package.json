@@ -39,7 +39,10 @@
       "arlac77/template-vue-app"
     ],
     "properties": {
-      "rollup": { "config": "rollup.config.mjs" }
+      "rollup": { "config": "rollup.config.mjs" },
+      "web-app": {
+        "publish": "public/"
+      }
     },
     "mergers": [
       {
