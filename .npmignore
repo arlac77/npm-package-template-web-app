@@ -2,4 +2,3 @@
 --delete-- *.js.map
 --delete-- *.mjs.map
 --delete-- *.css.map
---delete-- .travis.yml
