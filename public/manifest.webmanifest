@@ -8,5 +8,10 @@
   "display": "standalone",
   "orientation": "portrait",
   "icons": [
+    {
+      "src": "images/icon.svg",
+      "sizes": "150x150",
+      "purpose": "any"
+    }
   ]
 }

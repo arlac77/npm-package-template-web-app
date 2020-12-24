@@ -3,6 +3,9 @@
   <head>
     <base href="{{base}}/">
     <meta charset="utf8" />
+
+    <script src="bundle.main.mjs" type="module"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="application-name" content="{{title}}">
     <meta name="apple-mobile-web-app-title" content="{{title}}">
@@ -12,12 +15,14 @@
 
     <title>{{title}}</title>
 
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/icon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="apple-touch-icon" href="images/icon.png" />   
+
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="bundle.main.css" />
   </head>
 
   <body>
-    <script src="bundle.main.mjs" type="module"></script>
   </body>
 </html>
