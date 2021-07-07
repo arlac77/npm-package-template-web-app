@@ -4,7 +4,7 @@
   "description": "{{description}}",
   "categories": [],
   "background_color": "#ffffff",
-  "start_url": "./index.html",
+  "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
   "icons": [
