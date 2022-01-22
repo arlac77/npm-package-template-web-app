@@ -8,7 +8,7 @@
       [
         "@semantic-release/exec",
         {
-          "publishCmd": "npx npm-pkgbuild --pkgver ${nextRelease.version} pkgbuild pacman makepkg"
+          "publishCmd": "npx npm-pkgbuild --verbose"
         }
       ]
     ]
@@ -16,7 +16,7 @@
   "config": {
     "base": "/services/{{name}}"
   },
-  "pacman": {
+  "pkg": {
     "groups": "web",
     "content": {
       "${installdir}/": {
@@ -28,18 +28,14 @@
   "template": {
     "inheritFrom": [
       "arlac77/template-root",
-      "arlac77/template-nginx",
-      "arlac77/template-pacman",
+      "arlac77/template-nginx#next",
+      "arlac77/template-pacman#next",
       "arlac77/template-semantic-release"
     ],
     "usedBy": [
-      "arlac77/npm-dep-graph",
-      "arlac77/service-worker-playground",
-      "arlac77/template-svelte-app",
-      "arlac77/template-vue-app"
+      "arlac77/template-svelte-app#next"
     ],
     "properties": {
-      "rollup": { "config": "rollup.config.mjs" },
       "web-app": {
         "publish": "public/"
       }
