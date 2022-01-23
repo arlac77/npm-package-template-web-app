@@ -20,7 +20,7 @@
     "groups": "web",
     "content": {
       "${installdir}/": {
-        "base": "public"
+        "base": "{{web-app.publish}}"
       }
     },
     "installdir": "/services/{{name}}/frontend"
