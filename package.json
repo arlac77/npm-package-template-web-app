@@ -29,7 +29,7 @@
     "inheritFrom": [
       "arlac77/template-root",
       "arlac77/template-nginx",
-      "arlac77/template-pacman#next",
+      "arlac77/template-pacman",
       "arlac77/template-semantic-release"
     ],
     "usedBy": [
