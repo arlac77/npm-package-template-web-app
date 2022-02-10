@@ -33,6 +33,7 @@
       "arlac77/template-semantic-release"
     ],
     "usedBy": [
+      "arlac77/mf-styling",
       "arlac77/template-svelte-app#next"
     ],
     "properties": {
