@@ -19,11 +19,11 @@
   "pkg": {
     "groups": "web",
     "content": {
-      "${installdir}/": {
+      "${install.dir}": {
         "base": "{{web-app.publish}}"
       }
     },
-    "installdir": "/services/{{name}}/frontend"
+    "install.dir": "/services/{{name}}/frontend/"
   },
   "template": {
     "inheritFrom": [
