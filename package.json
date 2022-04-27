@@ -16,7 +16,7 @@
   "config": {
     "base": "/services/{{name}}"
   },
-  "pkg": {
+  "pkgbuild": {
     "groups": "web",
     "content": {
       "${install.dir}": {
