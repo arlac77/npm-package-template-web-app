@@ -3,16 +3,6 @@
     "web"
   ],
   "dependencies": {},
-  "release": {
-    "plugins": [
-      [
-        "@semantic-release/exec",
-        {
-          "publishCmd": "npx npm-pkgbuild"
-        }
-      ]
-    ]
-  },
   "config": {
     "base": "/services/{{name}}"
   },
