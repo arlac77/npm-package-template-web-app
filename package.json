@@ -3,9 +3,6 @@
     "web"
   ],
   "dependencies": {},
-  "config": {
-    "base": "/services/{{name}}"
-  },
   "pkgbuild": {
     "groups": "web",
     "content": {
