@@ -2,7 +2,6 @@
   "keywords": [
     "web"
   ],
-  "dependencies": {},
   "pkgbuild": {
     "groups": "web",
     "content": {
