@@ -9,7 +9,7 @@
         "base": "{{web-app.publish}}"
       }
     },
-    "install.dir": "/services/{{name}}/frontend/"
+    "install.sub.dir": "/frontend/"
   },
   "template": {
     "inheritFrom": [
