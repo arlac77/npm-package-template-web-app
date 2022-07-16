@@ -3,7 +3,6 @@
     "web"
   ],
   "pkgbuild": {
-    "groups": "web",
     "content": {
       "${install.dir}": {
         "base": "{{web-app.publish}}"
