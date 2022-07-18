@@ -19,6 +19,7 @@
       "arlac77/template-css"
     ],
     "usedBy": [
+      "arlac77/mf-examples",
       "arlac77/template-svelte-app#next"
     ],
     "properties": {
