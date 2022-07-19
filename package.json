@@ -7,8 +7,7 @@
       "${install.dir}": {
         "base": "{{web-app.publish}}"
       }
-    },
-    "install.sub.dir": "/frontend/"
+    }
   },
   "template": {
     "inheritFrom": [
