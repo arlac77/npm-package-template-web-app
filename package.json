@@ -18,8 +18,7 @@
       "arlac77/template-css"
     ],
     "usedBy": [
-      "arlac77/mf-examples",
-      "arlac77/template-svelte-app#next"
+      "arlac77/template-svelte-app"
     ],
     "properties": {
       "web-app": {
