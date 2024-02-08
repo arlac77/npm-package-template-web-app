@@ -10,6 +10,7 @@
       "arlac77/template-css"
     ],
     "usedBy": [
+      "arlac77/npm-dep-graph",
       "arlac77/template-svelte-app"
     ],
     "properties": {
