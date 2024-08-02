@@ -11,8 +11,7 @@
     ],
     "usedBy": [
       "arlac77/npm-dep-graph",
-      "arlac77/template-svelte-app",
-      "konsumation/frontend-svelte"
+      "arlac77/template-svelte-app"
     ],
     "properties": {
       "web-app": {
